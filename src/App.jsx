@@ -1,15 +1,13 @@
 import React, { Component } from 'react';
-import Task from './task';
-
-
+import Task from './task'
+import View from './view'
 
 class App extends Component {
 
   render() {
     return (
       <div className='container'>
-   
-        <Task />
+        <Task/>
       </div>
     );
   }
